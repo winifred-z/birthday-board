@@ -10,7 +10,7 @@ import { BsPencil } from 'react-icons/bs';
 export default function BoardInteraction() {
     const [messageModalOpen, setMessageModalOpen] = useState(true);
     const [messageModalText, setMessageModalText] =
-        useState(`Hi! Please leave a kind message for Matthew
+        useState(`Hi! Please leave kind messages and pics for Matthew!
 - Winnie`);
     const [messageModalButtonText, setMessageModalButtonText] = useState('Sounds good');
     const [noteModalOpen, setNoteModalOpen] = useState(false);
