@@ -33,7 +33,7 @@ export default function BoardInteraction() {
 
     return (
         <div>
-            {/*<div className={styles.buttonContainer}>
+            <div className={styles.buttonContainer}>
                 <button className={styles.button} onClick={() => setNoteModalOpen(true)}>
                     Add a note {''}
                     <BsPencil size={20} />
@@ -42,7 +42,7 @@ export default function BoardInteraction() {
                     Add a photo {''}
                     <BsImage size={20} />
                 </button>
-            </div>*/}
+            </div>
             <MessageModal
                 message={messageModalText}
                 buttonText={messageModalButtonText}
