@@ -10,11 +10,8 @@ import { BsPencil } from 'react-icons/bs';
 export default function BoardInteraction() {
     const [messageModalOpen, setMessageModalOpen] = useState(true);
     const [messageModalText, setMessageModalText] =
-        useState(`Welcome! Since Selali's bday has passed, the board isn't free to be added to anymore. Thanks to everyone who left a message :)
-
-The site will still be up for viewing until next year, but eventually it'll move to Selali's neocities page! The link is at the top of the site.
-
-- James`);
+        useState(`Hi! Please leave a kind message for Matthew
+- Winnie`);
     const [messageModalButtonText, setMessageModalButtonText] = useState('Sounds good');
     const [noteModalOpen, setNoteModalOpen] = useState(false);
     const [pictureModalOpen, setPictureModalOpen] = useState(false);

@@ -40,8 +40,7 @@ export default async function Home() {
     return (
         <div>
             <p className={styles.signature}>
-                this site has a new home! archived at{' '}
-                <a href="https://audio-sludge.neocities.org/">Selali&#39;s neocities page</a>
+                Happy Birthday Matthew!
             </p>
             <BoardInteraction></BoardInteraction>
             <div className={styles.page}>
@@ -87,7 +86,7 @@ export default async function Home() {
                 </div>
             </div>
             <p className={styles.signature}>
-                this site made by <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">james</a> :)
+                code by James (thanks!) :)
             </p>
         </div>
     );

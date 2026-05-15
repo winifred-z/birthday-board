@@ -45,7 +45,7 @@ export default function NoteModal({ isOpen, onClose, onSubmit }: NoteModalProps)
     };
 
     // pin color control
-    const pinColors: string[] = ['#38632a', '#FFC570', '#BDA6CE', '#81A6C6', '#D96868', '#000000'];
+    const pinColors: string[] = ['#28c2cd', '#d631d3', '#cf8a13', '#a4c416', '#5507d4', '#d90f0f'];
     const cyclePinColor = () =>
         setPinColor((prevColor) => {
             const currentIndex = pinColors.indexOf(prevColor);

@@ -18,7 +18,7 @@ export default function Picture({ image, sender, placement, margin }: PicturePro
     return (
         <div style={{ marginTop: margin + 'px' }} className={getPlacementStyle()}>
             <div style={{ marginTop: margin + 'px' }} className={styles.container}>
-                <Pin color={'#38632a'}></Pin>
+                <Pin color={'#d12c3c'}></Pin>
                 <img src={image} className={styles.image}></img>
             </div>
         </div>

@@ -5,16 +5,8 @@ export default function TitleNote() {
     return (
         <div className={styles.container}>
             <div className={styles.noteContainer}>
-                <Pin color={'#38632a'}></Pin>
-                <p className={styles.firstNoteText}>{"Selali's"}</p>
-            </div>
-            <div className={styles.noteContainer}>
-                <Pin color={'#38632a'}></Pin>
-                <p className={styles.secondNoteText}>{'23RD BIRTHDAY'}</p>
-            </div>
-            <div className={styles.noteContainer}>
-                <Pin color={'#38632a'}></Pin>
-                <p className={styles.thirdNoteText}>{'digital bulletin board'}</p>
+                <Pin color={'#eb1438'}></Pin>
+                <p className={styles.thirdNoteText}>{'celebrating the life of MATTHEW CAVANAUGH'}</p>
             </div>
         </div>
     );
