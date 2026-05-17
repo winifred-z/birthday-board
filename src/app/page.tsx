@@ -73,11 +73,18 @@ export default async function Home() {
                                     sender={item.sender}
                                     placement={
                                         index % 3 == 0
+                                            ? 'left'
+                                            : index % 3 == 1
+                                            ? 'center'
+                                            : 'right'
+                                    }
+                                    /*placement={
+                                        index % 3 == 0
                                             ? 'center'
                                             : index % 2 == 0
                                               ? 'left'
                                               : 'right'
-                                    }
+                                    }*/
                                     margin={item.margin}
                                 ></Note>
                             );
