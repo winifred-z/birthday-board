@@ -23,7 +23,8 @@ export default function Note({ color, font, message, sender, placement, margin }
         return 160;
     };
 
-    console.log('Note rendered with message: ', message, 'placement: ', getPlacementStyle());
+    //console.log('Note rendered with message: ', message, 'placement: ', getPlacementStyle());
+    console.log('Note rendered with message: ', message, 'margin: ', margin);
     return (
         <div style={{ fontFamily: font, marginTop: margin + 'px' }} className={getPlacementStyle()}>
             <div style={{ width: getSize() + 'px' }} className={styles.container}>
