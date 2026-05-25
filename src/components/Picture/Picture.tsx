@@ -15,6 +15,7 @@ export default function Picture({ image, sender, placement, margin }: PicturePro
         return styles.placeCenter;
     };
 
+    console.log('Picture rendered, margin: ', margin);
     return (
         <div style={{ marginTop: margin + 'px' }} className={getPlacementStyle()}>
             <div className={styles.container}>
